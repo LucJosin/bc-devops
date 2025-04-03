@@ -7,10 +7,10 @@
 
 ### Vagrant + Virtualbox
 
-- [Documentação](./docs/vagrant/README.md)
-- [Projeto: mundo-invertido-projeto](./docs/vagrant/mundo-invertido-projeto/)
+- [Documentação](./vagrant/README.md)
+- [Projeto: mundo-invertido-projeto](./vagrant/mundo-invertido-projeto/)
 
 ### Terraform + AWS
 
-- [Documentação](./docs/terraform/README.md)
-- [Projeto: aws-terraform-projeto](./docs/terraform/aws-terraform-projeto/)
+- [Documentação](./terraform/README.md)
+- [Projeto: aws-terraform-projeto](./terraform/aws-terraform-projeto/)
