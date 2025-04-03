@@ -1,8 +1,13 @@
-# Projeto: Vagrant + Virtualbox
+<h3 align="center">< Projeto Vagrant + Virtualbox /></h3>
+
+<h1 align="center">
+    <img src="https://static.wixstatic.com/media/8ecd9a_6d2ed19df9b0470d9522319a25ce7dea~mv2.png/v1/fill/w_548,h_220,al_c,q_85,usm_0.66_1.00_0.01,enc_png,quality_high/Sem-t%C3%ADtulo-2.png" height="100"/> <br>
+    DevOps
+</h1>
 
 Documentação do projeto de DevOps com **Vagrant** e **VirtualBox**.
 
-Todo o passo a passo foi feito em Linux (_PopOs 22.04_)
+> Todo o passo a passo foi feito em Linux (_PopOs 22.04_)
 
 ### Tópicos
 

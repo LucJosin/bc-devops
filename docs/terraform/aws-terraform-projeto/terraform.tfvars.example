@@ -1,0 +1,5 @@
+ssh_allowed_cidr = ""
+aws_region       = ""
+aws_profile      = ""
+key_pair_name    = ""
+ec2_tags = {}
