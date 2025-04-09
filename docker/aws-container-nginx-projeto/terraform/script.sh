@@ -8,6 +8,6 @@ sudo apt-get install docker.io -y
 sudo systemctl enable --now docker
 sudo systemctl start docker
 
-sudo docker pull ghcr.io/bc-devops/aws-container-nginx:latest
+sudo docker pull ghcr.io/lucjosin/aws-container-nginx:latest
 
-sudo docker run --name bc-devops -d -it -p 80:8000 ghcr.io/bc-devops/aws-container-nginx
+sudo docker run --name bc-devops -d -it -p 80:8000 ghcr.io/lucjosin/aws-container-nginx
