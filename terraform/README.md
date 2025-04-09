@@ -69,4 +69,4 @@ terraform apply
 
 Após todo esse processo, a partir do ip do terminal (_outputs.tf_), consegui acessar o site:
 
-![Site Final](./aws-terraform-projeto/assets/final.png)
+![Site Final](./assets/final.png)
