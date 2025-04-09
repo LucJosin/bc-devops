@@ -17,7 +17,7 @@ jobs:
 
       - name: Docker build
         run: |
-          docker build -t ghcr.io/LucJosin/aws-container-nginx:latest ./docker/aws-container-nginx-projeto
+          docker build -t ghcr.io/lucjosin/aws-container-nginx:latest ./docker/aws-container-nginx-projeto
 
       # Publish
 
@@ -26,4 +26,4 @@ jobs:
 
       - name: GitHub (GHCR) push
         run: |
-          docker push ghcr.io/LucJosin/aws-container-nginx:latest
+          docker push ghcr.io/lucjosin/aws-container-nginx:latest
