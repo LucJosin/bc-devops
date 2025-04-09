@@ -1,0 +1,29 @@
+name: "Build and Publish"
+
+on:
+  workflow_dispatch:
+
+env:
+  GHCR_TOKEN: ${{ secrets.GHCR_TOKEN }}
+
+jobs:
+  build-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set up checkout
+        uses: actions/checkout@v4
+
+      # Build
+
+      - name: Docker build
+        run: |
+          docker build -t ghcr.io/LucJosin/aws-container-nginx:latest .
+
+      # Publish
+
+      - name: GitHub (GHCR) login
+        run: echo $GHCR_TOKEN | docker login ghcr.io -u LucJosin --password-stdin
+
+      - name: GitHub (GHCR) push
+        run: |
+          docker push ghcr.io/LucJosin/aws-container-nginx:latest

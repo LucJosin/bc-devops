@@ -14,3 +14,8 @@
 
 - [Documentação](./terraform/README.md)
 - [Projeto: aws-terraform-projeto](./terraform/aws-terraform-projeto/)
+
+### AWS + Containers + Nginx
+
+- [Documentação](./docker/README.md)
+- [Projeto: aws-container-nginx-projeto](./docker/aws-container-nginx-projeto/)
