@@ -17,7 +17,7 @@ jobs:
 
       - name: Docker build
         run: |
-          docker build -t ghcr.io/LucJosin/aws-container-nginx:latest .
+          docker build -t ghcr.io/LucJosin/aws-container-nginx:latest ./docker/aws-container-nginx-projeto
 
       # Publish
 
